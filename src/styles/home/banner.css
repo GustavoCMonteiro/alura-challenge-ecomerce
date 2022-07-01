@@ -41,3 +41,38 @@
 .banner__conteudo-button:hover {
   background-color: #5595e9;
 }
+
+@media (max-width: 1024px) {
+  .banner__conteudo-div {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .banner {
+    background-position: center;
+    height: 200px;
+    padding-bottom: 1rem;
+  }
+
+  .banner__conteudo-div {
+    height: 200px;
+  }
+
+  .banner__conteudo-div {
+    padding: 0 1rem;
+  }
+
+  .banner__conteudo-titulo {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+
+  .banner__conteudo-texto {
+    font-size: 0.875rem;
+  }
+
+  .banner__conteudo-button {
+    padding: 1rem 0;
+  }
+}

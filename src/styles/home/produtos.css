@@ -39,3 +39,23 @@
   color: var(--color-primary);
   font-weight: bold;
 }
+
+@media (max-width: 1024px) {
+  .produtos {
+    margin-top: 2rem;
+    padding: 0 1rem;
+  }
+  .produtos__geral {
+    overflow: auto;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 768px) {
+  .produtos {
+    padding: 0 0.5rem;
+  }
+  .produtos__geral-foto {
+    width: 150px;
+  }
+}

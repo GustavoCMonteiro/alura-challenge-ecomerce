@@ -29,11 +29,44 @@
 
 .head__login-button {
   color: var(--color-primary);
-  padding: 0.7rem 3rem;
+  padding: 0.7rem 2rem;
   border: 1px solid var(--color-primary);
   transition: 0.2s;
 }
 
 .head__login-button:hover {
   background-color: #d4e4fa;
+}
+
+.head__lupa {
+  display: none;
+}
+
+@media (max-width: 1024px) {
+  .head {
+    padding: 0 2rem;
+  }
+  .head__busca {
+    width: 272px;
+  }
+}
+
+@media (max-width: 768px) {
+  .head {
+    padding: 0 1rem;
+  }
+  .head__logo-svg {
+    width: 120px;
+  }
+  .head__busca {
+    display: none;
+  }
+  .head__lupa {
+    display: block;
+  }
+  .head__login {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
 }
