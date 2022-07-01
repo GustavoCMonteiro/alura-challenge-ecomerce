@@ -1,0 +1,43 @@
+.banner {
+  background-image: url(../../imgs/banner-image.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 350px;
+  width: 100%;
+  padding-bottom: 2rem;
+}
+
+.banner__conteudo-div {
+  display: flex;
+  flex-direction: column;
+  height: 350px;
+  justify-content: end;
+}
+
+.banner__conteudo-titulo {
+  color: white;
+  font-size: 3.2rem;
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+
+.banner__conteudo-texto {
+  color: white;
+  font-size: 1.4rem;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+.banner__conteudo-button {
+  background-color: var(--color-primary);
+  color: white;
+  padding: 1.2rem 0;
+  width: 130px;
+  text-align: center;
+  transition: 0.2s;
+}
+
+.banner__conteudo-button:hover {
+  background-color: var(--color-secondary);
+}

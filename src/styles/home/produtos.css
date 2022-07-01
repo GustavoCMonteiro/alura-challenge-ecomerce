@@ -1,0 +1,13 @@
+.produtos {
+  margin-top: 4rem;
+}
+
+.produtos__topo {
+  display: flex;
+  justify-content: space-between;
+}
+
+.produtos__topo-titulo {
+  font-size: 2rem;
+  font-weight: bold;
+}
