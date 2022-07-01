@@ -1,5 +1,5 @@
 .produtos {
-  margin-top: 4rem;
+  margin: 4rem 0;
 }
 
 .produtos__topo {
@@ -46,8 +46,16 @@
     padding: 0 1rem;
   }
   .produtos__geral {
-    overflow: auto;
+    overflow-x: auto;
     gap: 1rem;
+  }
+  .produtos__geral::-webkit-scrollbar {
+    display: none;
+  }
+
+  .produtos__geral {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
   }
 }
 
