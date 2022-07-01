@@ -1,0 +1,54 @@
+.direitos__color {
+  background-color: white;
+}
+
+.direitos {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 10px;
+}
+
+.direitos-text {
+  font-size: 1.3rem;
+  padding: 10px;
+}
+
+.direitos__redes {
+  display: flex;
+  gap: 20px;
+}
+
+.direitos__redes-rede {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.direitos__redes-img {
+  max-width: 30px;
+}
+
+@media (max-width: 1000px) {
+  .direitos__redes-rede {
+    flex-direction: row-reverse;
+  }
+  .direitos-text {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 700px) {
+  .direitos {
+    display: block;
+    text-align: center;
+  }
+  .direitos__redes-rede {
+    font-size: 1.25rem;
+  }
+  .direitos__redes {
+    justify-content: center;
+    margin-top: 10px;
+  }
+}
