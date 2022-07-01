@@ -1,5 +1,6 @@
 .catalogo {
-  margin: 4rem auto;
+  padding-bottom: 2em;
+  margin-top: 4rem;
 }
 
 .catalogo__topo {
@@ -23,6 +24,14 @@
 .catalogo__geral {
   display: flex;
   justify-content: space-between;
+  overflow-x: auto;
+  gap: 1rem;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.catalogo__geral::-webkit-scrollbar {
+  display: none;
 }
 
 .catalogo__geral-produto {
@@ -43,25 +52,13 @@
 @media (max-width: 1024px) {
   .catalogo {
     margin-top: 2rem;
-    padding: 0 1rem;
-  }
-  .catalogo__geral {
-    overflow-x: auto;
-    gap: 1rem;
-  }
-  .catalogo__geral::-webkit-scrollbar {
-    display: none;
-  }
-
-  .catalogo__geral {
-    -ms-overflow-style: none;
-    scrollbar-width: none;
+    padding: 0 1rem 2rem 1rem;
   }
 }
 
 @media (max-width: 768px) {
   .catalogo {
-    padding: 0 0.5rem;
+    padding: 0 0.5rem 2rem 0.5rem;
   }
   .catalogo__geral-foto {
     width: 150px;
